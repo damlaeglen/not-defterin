@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Josefin+Sans:wght@300&display=swap');
+
+
+body{
+    font-family: 'Amatic SC', cursive;  
+    background: -webkit-linear-gradient(to right, #ff9472, #bcf2f4);  /* Chrome 10-25, Safari 5.1-6 */
+    border-radius: 10px;
+    background: linear-gradient(to right, #fb987a, #ff7ca8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.tamamlanmis{
+    color: gray;
+    text-decoration: line-through;
+}
+
+#container{
+    margin: 80px auto;
+    width: 800px;
+    border: 5px solid white;
+    box-shadow: 15px 15px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+ 
+}
+
+
+h1{
+    background-color: rgb(173, 210, 224);
+    color: white;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    background-color: rgb(220, 242, 251);
+    height: 50px;
+    line-height: 50px;
+}
+
+li:nth-child(2n){
+    background-color: #f49ebb;
+}
+
+li span{
+    height: 50px;
+    width: 30px;
+    background-color: rgb(158, 1, 1);
+    display: inline-block;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+li:hover span{
+    opacity: 1;
+    width: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+#tik{
+    float: right;
+    background-color: rgb(27, 147, 0);
+    display: inline-block;
+    text-align: center;
+    opacity: 0.1;
+    transition: all 0.9s ease;
+
+}
+
+#tik:hover{
+    opacity: 1;
+    width: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+input{
+    width: 97%;
+    height: 30px;
+    padding: 10px 10px 10px;
+    color:rgb(9, 9, 3);
+    font-weight: 500;
+    font-size: 24px;
+    border: 1px  solid #f9c1c1;
+  
+}
+
+#select{
+    border: 1px  solid #f9c1c1;
+    background-color: rgb(137, 185, 185);
+    color: white;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    right: 670px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+#select:hover{
+    background-color: rgb(104, 144, 144);
+   
+}
+
+#result{
+
+   
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    right: 630px;
+    padding: 10px;
+
+}
